@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  font-family: "Fira Sans", serif; */
+:root{
+    --primary-color:#006A50;
+    --secondary-color:#FFFFFF;
+    --third-color:#0E0E0E ;
+    --btn-color:#09A15C;
+    --btn2-color:#FFC239;
+    --btn3-color:#5490F5;
+    --card-color2:#F7EBCF;
+    --card--color1:#5490F5;
+    --primary-font: "Fira Sans", serif;
+    --background-color:#C6E4D6;
+}
+/* banner css start here */
+#banner{
+    max-width: 1280px;
+    background: var(--background-color);
+    margin: 37px auto;
+    border-radius: 24px;
+}
+.banner-body{
+display: flex;
+}
+.banner-left{
+    margin: 117px 0px 117px 59px;
+}
+.b-title{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 24px;
+    color:  rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+.b-subtitle{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    color: var(--third-color);
+    margin-bottom: 24px;
+}
+.banner-btn{
+
+}
+.btn{
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    border: none;
+    border-radius: 24px;
+}
+.banner-img{
+    margin: 80px 59px 80px 0px;
+}
+/* banner css end here */
+
+/* vision css add here */
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;    
+}
+
+
+#vision-sec{
+    max-width: 1280px;
+    margin-top: 80px;
+}
+.vision{
+
+}
+.vision-title{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+    margin-bottom: 24px;
+}
+.vision-subtitle{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+card{
+width: 410px;
+height: 325px;
+}
+.card-title{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.card-description{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.card-btn{
+
+}
+
+/* vision css end here */
