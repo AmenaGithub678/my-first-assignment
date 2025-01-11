@@ -55,6 +55,11 @@ display: flex;
     border: none;
     border-radius: 24px;
 }
+#banner .btn:hover {
+    background: #4caf507a!important;
+    transform: scale(1.1);
+    transition: 1s;
+}
 .banner-img{
     margin: 80px 59px 80px 0px;
 }
@@ -137,6 +142,7 @@ background: rgb(247, 235, 207);
 }
 .btn1{
     background: rgb(84, 144, 245);
+    
 }
 .btn2{
     background: rgb(9, 161, 92);
@@ -144,6 +150,23 @@ background: rgb(247, 235, 207);
 .btn3{
     background: rgb(255, 194, 57);
 }
+
+.btn1:hover{
+    background: rgb(255, 194, 57)!important;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.btn2:hover{
+    background: rgb(84, 144, 245);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.btn3:hover{
+    background:rgb(9, 161, 92)!important;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 /* vision css end here */
 
 /* quote section code start here */
@@ -286,6 +309,11 @@ margin-top: 12px;
     max-width: 85%;
     margin: 0 auto;
 }
+.donate:hover{
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+}
 .donate-title{
     margin-top:80px ;
     text-align: center;
@@ -326,6 +354,12 @@ margin-top: 12px;
     border: none;
     border-radius: 16px;
 }
+.donate-btn:hover{
+ background: var(--card-color2);
+ transform: scale(1.1);
+ transition: 1s;
+
+}
 .donate-btn1{
     margin-top: 32px;
     background: rgb(198, 228, 214);
@@ -336,6 +370,11 @@ margin-top: 12px;
     font-family: var(--primary-font);
     border: none;
     border-radius: 16px; 
+}
+.donate-btn1:hover{
+background: var(--btn2-color);
+transform: scale(1.1);
+transition: 1s;
 }
 form{
     text-align: center;
@@ -370,6 +409,13 @@ input[type="number"]{
     border-radius: 8px;
     outline: 0;
     border: 0;
+    margin-bottom: 10px;
+}
+.form-btn:hover{
+    background: var(--btn2-color);
+    transform: scale(1.1);
+    transition: 1s;
+
 }
 /* donate section css end here */
 
