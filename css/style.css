@@ -145,6 +145,44 @@ background: rgb(247, 235, 207);
     background: rgb(255, 194, 57);
 }
 /* vision css end here */
+
+/* quote section code start here */
+.quote-sec{
+    padding: 48px 24px;
+    box-shadow: 4px 4px 8px gray;
+    margin-top: 32px;
+    border-radius: 16px;
+    position: relative;
+}
+.quote-description{
+    margin-top: 32px;
+font-family: var(--primary-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(14, 14, 14, 0.8);
+}
+.quote-title{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.quote-subtitle{
+font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;    
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+.quote-img{
+    position: relative;
+    top: -171px;
+}
+/* quote section code end here */
+
 /* news section start here */
 .news-sec{
     
@@ -157,7 +195,12 @@ background: rgb(247, 235, 207);
     font-size: 40px;
 }
 .news-description{
-
+    color: rgba(14, 14, 14, 0.7);
+    font-family: var(--primary-font);
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
 }
 .news-box{
     display: flex;
@@ -209,9 +252,7 @@ background: rgb(247, 235, 207);
     margin-top: 24px;
     font-family: var(--primary-font);
     font-weight: 700;
-    font-size: 32px;
-
-    
+    font-size: 32px;  
 }
 .newsr-img{
     margin-top: 12px;
