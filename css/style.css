@@ -330,12 +330,65 @@ input[type="number"]{
     outline: 0;
     border: 0;
 }
-
-
-
-
-
-
-
-
 /* donate section css end here */
+
+/* subscribe section  start here */
+.subscribe-sec{
+    margin-top: 80px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+}
+.subs-title{
+font-family: var(--primary-font);
+font-weight: 700;
+text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+}
+.subs-subtitle{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      color:   rgba(14, 14, 14, 0.7);
+}
+.subscribe-form{
+position: relative;
+}
+.subscribe-form form {
+
+}
+input[type=Email]{
+    padding: 16px 40px 16px 40px;
+    width: 60%;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: var(--primary-font);
+    
+    background: var(--secondary-color);
+    margin-top: 32px;
+}
+.subs-btn{
+    margin-top: -56px;
+    position: absolute;
+    padding: 19px 35px 18px 35px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    border: none;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    transform: translateX(158%);
+}
+
+
+
+
+/* subscribe section end start here */
