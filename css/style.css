@@ -239,7 +239,103 @@ margin-top: 12px;
 .news-btn{
     margin-top: 32px;
 }
-
-
-
 /* news section end here */
+/* donate section css start here */
+.donate{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.donate-title{
+    margin-top:80px ;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgb(14, 14, 14);
+
+}
+.donate-description{
+    text-align: center;
+    margin-top: 24px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+.donate-buttons{
+    max-width: 75%;
+    gap: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+.donate-btn{
+    margin-top: 32px;
+    background: rgba(14, 14, 14, 0.15);
+    padding: 30px 35px 30px 35px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    border: none;
+    border-radius: 16px;
+}
+.donate-btn1{
+    margin-top: 32px;
+    background: rgb(198, 228, 214);
+    padding: 30px 35px 30px 35px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    border: none;
+    border-radius: 16px; 
+}
+form{
+    text-align: center;
+}
+lebel{
+    display: block; 
+    
+ }
+input[type="number"]{
+    padding: 20px 40px 20px 40px;
+    width: 60%;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: var(--primary-font);
+    text-align: center;
+    background: #eeeeee57;
+    margin-top: 32px;
+}
+.form-btn{
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    border: none;
+    background: rgb(0, 106, 80);
+    width: 8%;
+    margin-top: 32px;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+/* donate section css end here */
