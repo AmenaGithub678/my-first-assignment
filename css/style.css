@@ -482,6 +482,7 @@ input[type=Email]{
 /* subscribe section end start here */
 /* Responsive code start here */
 @media screen and (max-width:576px){
+   
     .banner-body {
         flex-direction: column;
         margin: 0 auto;
@@ -590,7 +591,7 @@ input[type="number"] {
 
     input[type=Email] {
         padding: 16px 20px 16px 20px;
-        width: 80%;
+        width: 64%;
         font-size: 16px;
     }
     .form-btn {
@@ -617,7 +618,7 @@ input[type="number"] {
 .subs-btn {
     margin-top: -56px;
     position: absolute;
-    padding: 19px 23px 18px 23px;
-    transform: translateX(94%);
+    padding: 19px 15px 18px 15px;
+    transform: translateX(84%);
 }
 }
