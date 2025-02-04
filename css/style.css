@@ -311,10 +311,11 @@ margin-top: 12px;
 }
 .donate:hover{
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+    border-radius: 25px;
 
 }
 .donate-title{
+    padding-top: 30px;
     margin-top:80px ;
     text-align: center;
     font-family: var(--primary-font);
@@ -409,7 +410,7 @@ input[type="number"]{
     border-radius: 8px;
     outline: 0;
     border: 0;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .form-btn:hover{
     background: var(--btn2-color);
@@ -479,3 +480,144 @@ input[type=Email]{
 
 
 /* subscribe section end start here */
+/* Responsive code start here */
+@media screen and (max-width:576px){
+    .banner-body {
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-left { 
+            margin: 40px auto;
+    }
+    .b-title {
+        padding-left: 20px;
+        font-size: 35px;}
+    .b-subtitle {
+        font-size: 30px;
+        padding-right: 213px;
+        margin: 0px auto;
+        padding-left: 20px;
+    }
+
+
+    .btn {
+        padding: 15px 20px 15px 20px;
+        font-size: 16px;
+    }
+    .banner-btn {
+        margin: 0px auto;
+       margin-top:25px ;
+       text-align: left;
+       padding-left: 20px;
+    }
+        .banner-img {
+           
+            margin: 50px auto;
+            width: 100%;
+        }
+        .vision-title {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .vision-subtitle {
+            font-size: 14px;
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 32px;
+        }
+
+        .cards {
+            gap: 20px;
+            flex-direction: column;
+        }
+        .card1, .card2, .card3 {
+            width: 250px;
+            padding: 20px 20px;
+            border-radius: 30px;
+            margin: 0 auto;
+        }
+
+        .card-title {
+            margin-top: 24px;
+        }
+    .quote-img {
+        position: relative;
+        top: -280px;
+    }
+
+
+        .quote-sec {
+            padding: 40px 24px;
+            margin: 32px 0px auto;
+        }
+.news-description, .news-title { 
+            margin: 15px auto;
+                padding: 0px 25px;}
+
+        .news-box, .news-box1  {
+            flex-direction: column;
+            margin: 40px auto;
+            align-items: center;
+            justify-content: center;
+        }
+        .news-right, .news1-right{
+            padding: 30px 30px 50px 30px;
+        }
+   .news-left, .news1-left {
+            padding: 35px 20px 35px 20px;
+            margin: 0px auto;
+        }
+    .news-left img, .news1-left img{
+width: 100%;
+        }
+        
+        .donate-title {
+            padding-top: 25px;
+            margin-top: 60px;}
+        .donate-buttons {
+        
+            flex-direction: column;
+            gap: 15px
+}
+
+input[type="number"] {
+    padding: 20px 15px 20px 15px;
+    width: 80%;
+    border-radius: 10px;}
+
+    input[type=Email] {
+        padding: 16px 20px 16px 20px;
+        width: 80%;
+        font-size: 16px;
+    }
+    .form-btn {
+        padding: 17px 15px 17px 15px;
+     text-align: center;
+        font-size: 16px;
+        width: 28%;
+        
+    }
+        .subscribe-sec {
+            padding: 70px 25px 70px 25px;
+            border-radius: 30px;
+            margin: 40px auto;
+            
+}
+.subs-title {
+    font-size: 30px;
+    line-height: 40px;
+}
+.subs-subtitle {
+    font-size: 16px;
+    padding: 15px 0px;
+}
+.subs-btn {
+    margin-top: -56px;
+    position: absolute;
+    padding: 19px 23px 18px 23px;
+    transform: translateX(94%);
+}
+}
